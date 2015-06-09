@@ -1,5 +1,5 @@
- <nav class="navbar navbar-inverse navbar-default" role="navigation">
-     <div class="container-fluid">
+ <nav class="navbar navbar-static-top navbar-default" role="navigation">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -10,10 +10,12 @@
       </button>
       <a class="navbar-brand" href="https://www.facebook.com/alex.c.sutton"> Vancouver, BC
     </div>
+    <!--Collect the nav links, forms, and other content fro toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home",root_path %></li>
         <li><%= link_to "About Page", about_path %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  </div><!-- /.container -->
+</nav>

@@ -1,11 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
 
-$body-bg: 							#1abc9c;
+$body-bg: 							white;
 $font-family-sans-serif: 			'Lato';
 $navebar-height:  					45X;
-$navbar-default-bg: 				white;
-$navbar-default-brand-color:		#d35400;
-$brand-primary: 				    #d35400;
+$navbar-default-bg: 				#1abc9c;
+$navbar-default-brand-color:		white;
+$brand-primary: 				    #16a085;
+$brand-default: 				    white;
 $jumbotron-bg:					    #ecf0f1;
  /* add this line */
 @import 'bootstrap-sprockets';
